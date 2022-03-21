@@ -8,9 +8,7 @@ workflows:
           filters:
             branches:
               only:
-                - main
-          requires:
-            - build          
+                - main        
 
 jobs:
   build:
